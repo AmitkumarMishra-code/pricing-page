@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #f5f8ff;
+    overflow: hidden;
+}
+
+.container{
+    z-index: 1;
+    width:70%;
+    height:65%;
+    border: 20px solid white;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 30px;
+    display: flex;
+    padding: 3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grid{
+    display: flex;
+    width: 32%;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.button-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+button{
+    border-radius: 10px;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+p{
+    color:#141843;
+}
+
+.try-for-free{
+    background-color:#FFDDB6;
+}
+
+.upgrade-now{
+    background-color: #AEF1F5;
+}
+
+.get-started{
+    background-color: #EDBBFF;
+}
+
+.title{
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.price{
+    font-size:32px;
+    font-weight: 700;
+}
+
+.price p:last-child{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+span{
+    font-size: 62px;
+}
+.description{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.ellipse1{
+    background: radial-gradient(50% 50% at 50% 50%, #C6FCFF 0%, rgba(198, 252, 255, 0) 100%);
+    position: absolute;
+    top:18px;
+    left:20%;
+    width:528px;
+    height:528px;
+}
+
+.ellipse2{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(237, 187, 255, 0.6) 0%, rgba(237, 187, 255, 0) 100%);
+    position: absolute;
+    top:200px;
+    left:-130px;
+    width:1000px;
+    height:1000px;
+}
+
+.ellipse3{
+    background: radial-gradient(50% 50% at 50% 50%, #FFDDB6 0%, rgba(255, 221, 182, 0) 100%);
+    position: absolute;
+    top:25px;
+    left:923px;
+    width:624px;
+    height:624px;
+}
